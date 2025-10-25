@@ -1,0 +1,293 @@
+body{
+  background-image: linear-gradient(to right, rgb(14, 44, 72) ,rgb(173, 127, 2), rgb(152, 16, 16));
+}
+
+root{--accent:#6c0ba4;--bg:#f6fbff;--card:#ffffff;--text:#222;--maxw:1000px}
+*{box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif; background-image: linear-gradient(to right, rgb(14, 44, 72) ,rgb(173, 127, 2), rgb(152, 16, 16));margin:0;display:flex;justify-content:center;color:var(--text)}
+.container{max-width:var(--maxw);width:100%;padding:20px}
+header{background:var(--card);padding:14px;border-radius:8px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+nav a{margin-left:12px;color:var(--accent);text-decoration:none;font-weight:600}
+main{background:var(--card);padding:18px;border-radius:8px;margin-top:16px;box-shadow:0 2px 6px rgba(0,0,0,.04)}
+h1{font-size:1.9rem;margin:0 0 8px 0}
+h2{font-size:1.3rem;margin:10px 0}
+h3{font-size:1.05rem;margin:8px 0}
+p{line-height:1.5}
+.banner{width:100%;height:260px;overflow:hidden;border-radius:6px;display:flex;align-items:center;justify-content:center;background:hsl(0, 0%, 87%)}
+.banner img{width:100%;height:100%;object-fit:cover;display:block}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{padding:12px;background:#fff;border-radius:6px;border:1px solid #eee}
+.table-responsive{overflow:auto}
+table{width:100%;border-collapse:collapse;margin:12px 0}
+th,td{border:1px solid #ddd;padding:8px;text-align:left}
+.horizontal-rule{border:none;border-top:2px solid #eee;margin:12px 0}
+img.responsive{max-width:100%;height:auto;border-radius:6px}
+.img-small{width:140px;height:auto}
+.form-row{display:flex;flex-direction:column;margin-bottom:10px}
+input,select,textarea{padding:8px;border:1px solid #ccc;border-radius:4px}
+.button{background:var(--accent);color:#fff;border:none;padding:10px 14px;border-radius:6px;cursor:pointer}
+@media(max-width:600px){header{flex-direction:column;align-items:flex-start}nav a{margin:6px 6px 0 0}}
+
+header {
+background: transparent; /* makes background clear */
+color: black; /* text color (you can change this) */
+padding: 14px;
+border: 2px solid black; /* black outline */
+border-radius: 8px; /* rounded corners */
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: none; /* optional: remove drop shadow */
+}
+
+.header-name{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-style: cursive;
+    font-size: x-large;
+    text-align: left;
+}
+
+.button{
+    color: black;
+    text-align: right;
+    font-family: cursive;
+}
+
+    .iframe-row {
+      display: flex; /* Arranges children in a row */
+    }
+    .iframe-container {
+      flex: 1; /* Makes each container take up equal space */
+    }
+    iframe {
+      width: 100%;
+      height: 300px; /* Adjust height as needed */
+      border: none;
+    }
+
+    .image-row {
+  display: flex; /* Establishes a flex container */
+  justify-content: 5px; /* Creates even space between items */
+  align-items: center; /* Aligns images vertically in the middle */
+}
+
+img {
+  margin-right: 10px; /* Adds 10px space to the right of each image */
+  margin-bottom: 10px; /* Adds 10px space below each image */
+    margin-top: 175px;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img1{
+    position: relative;
+  top: 5px; 
+  left: 5px;
+}
+
+    iframe {
+      padding-top: 150px; /* Adjust the value as needed */
+    }
+
+.the-thing{
+    text-align: left;
+    font-family: cursive;
+    color: #000000;
+
+}
+
+.heading-1{
+    text-align: left;
+    font-family: cursive;
+    color: #000000;
+}
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip1113 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  background: #ffffff00;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  left: 38%;
+}
+
+figure.snip1113 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+figure.snip1113 img {
+  max-width: 65%;
+  margin: 40px auto;
+  display: block;
+  position: relative;
+  border: 3px solid #666666;
+  padding: 15px 15px 85px 15px;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+figure.snip1113 figcaption {
+  position: absolute;
+  height: 120px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  display: block;
+}
+
+figure.snip1113 h3 {
+  background-color: #ffffff00;
+  color: #000000;
+  font-size: 1.7em;
+  width: 100%;
+  padding: 5px 12px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+figure.snip1113 h3 span {
+  font-weight: 800;
+}
+
+figure.snip1113 h4 {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  opacity: 0.6;
+  font-size: 1.1em;
+}
+
+figure.snip1113.blue img {
+  border-color: #2472a4;
+}
+
+figure.snip1113.blue h3,
+figure.snip1113.blue h4 {
+  color: #2472a4;
+}
+
+figure.snip1113.red img {
+  border-color: #000000;
+}
+
+figure.snip1113.red h3,
+figure.snip1113.red h4 {
+  color: #0f1570;
+}
+
+figure.snip1113.yellow img {
+  border-color: #e08e0b;
+}
+
+figure.snip1113.yellow h3,
+figure.snip1113.yellow h4 {
+  color: #e08e0b;
+}
+
+figure.snip1113.green img {
+  border-color: #229955;
+}
+
+figure.snip1113.green h3,
+figure.snip1113.green h4 {
+  color: #229955;
+}
+
+figure.snip1113.orange img {
+  border-color: #d67118;
+}
+
+figure.snip1113.orange h3,
+figure.snip1113.orange h4 {
+  color: #d67118;
+}
+
+figure.snip1113.navy img {
+  border-color: #2b3c4e;
+}
+
+figure.snip1113.navy h3,
+figure.snip1113.navy h4 {
+  color: #2b3c4e;
+}
+
+
+/* Demo purposes only */
+html {
+  height: 100%;
+}
+body {
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  height: 100%;
+}
+
+.list{
+    color: #000000;
+    text-align: left;
+    font-family: crusive;
+    font-weight: bold;
+}
+
+.base{
+    color: #000000;
+    font-family: cursive;
+    font-weight: bold;
+}
