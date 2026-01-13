@@ -1,5 +1,5 @@
 body{
-  background-image: linear-gradient(to right, rgb(14, 44, 72) ,rgb(173, 127, 2), rgb(152, 16, 16));
+  background-color: #000000;
 }
 
 root{--accent:#6c0ba4;--bg:#f6fbff;--card:#ffffff;--text:#222;--maxw:1000px}
